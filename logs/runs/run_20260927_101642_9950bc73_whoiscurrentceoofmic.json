@@ -1,0 +1,171 @@
+{
+  "run_id": "9950bc73-8e90-45ab-a0b3-65c58d67885b",
+  "session_id": "default_session",
+  "timestamp": "2026-09-27T10:12:58.065782",
+  "original_question": "who is current ceo of microsoft?",
+  "question": "who is current ceo of microsoft?",
+  "category": null,
+  "execution_time_seconds": 224.47,
+  "planning_time_seconds": 111.796,
+  "search_time_seconds": 3.087,
+  "fetch_time_seconds": 0.0,
+  "analyst_synthesis_time_seconds": 62.058,
+  "auditor_time_seconds": 47.489,
+  "correction_time_seconds": 0.0,
+  "number_of_urls_searched": 2,
+  "number_of_urls_fetched": 0,
+  "number_of_usable_sources": 0,
+  "failures_count": 0,
+  "model_name": "gemini-3.8-flash",
+  "prompt_tokens": 1457,
+  "completion_tokens": 518,
+  "total_tokens": 1975,
+  "cost_usd": 0.000265,
+  "cost_inr": 0.023,
+  "entities_detected": [
+    "Zepto"
+  ],
+  "references_detected": [],
+  "references_resolved": {},
+  "memory_hits": [
+    "Zepto"
+  ],
+  "memory_misses": [],
+  "facts_retrieved_from_memory": [
+    {
+      "entity": "Zepto",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Zepto funding_and_valuation: Not present in current evidence set",
+      "source_url": "Corpus evaluation",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -1.569
+    }
+  ],
+  "clarification_required": false,
+  "clarification_message": null,
+  "resolved_research_question": "who is current ceo of microsoft?",
+  "new_facts_written_to_memory": [
+    {
+      "entity": "Microsoft",
+      "attribute": "CEO",
+      "value": "Satya Nadella",
+      "source_url": "https://news.microsoft.com/exec/satya-nadella/",
+      "fact_date": null
+    }
+  ],
+  "entities_queried_from_memory": [
+    "Zepto"
+  ],
+  "entities_saved_to_memory": [
+    "Satya Nadella",
+    "Microsoft"
+  ],
+  "memory_hit": true,
+  "number_of_candidates": 0,
+  "number_of_successful_pages": 0,
+  "number_of_blocked_pages": 0,
+  "number_of_failed_pages": 0,
+  "total_fetch_time_ms": 0.0,
+  "minimum_evidence_threshold_reached": false,
+  "total_retries_performed": 0,
+  "retry_telemetry": [],
+  "candidate_telemetry": [],
+  "research_plan": [
+    "The user is asking for the current CEO of Microsoft. I need to find the most recent and accurate information regarding Microsoft's current Chief Executive Officer."
+  ],
+  "search_queries": [
+    "current CEO of Microsoft",
+    "Microsoft CEO 2024 2025"
+  ],
+  "tools_invoked": [
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "current CEO of Microsoft",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 3093.9999999827705,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "Microsoft CEO 2024 2025",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 3077.999999979511,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://news.microsoft.com/exec/satya-nadella/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 10750.0,
+      "error_message": null,
+      "fallback_applied": null
+    }
+  ],
+  "analyst_draft_answer": "Based on the available evidence, Satya Nadella is the current CEO of Microsoft [C1].",
+  "analyst_citations": [
+    {
+      "id": "[C1]",
+      "url": "https://news.microsoft.com/exec/satya-nadella/"
+    }
+  ],
+  "claim_evidence_map": [
+    {
+      "claim_id": "C1",
+      "claim": "Satya Nadella is the current CEO of Microsoft",
+      "evidence": [
+        {
+          "claim_id": "C1",
+          "source_url": "https://news.microsoft.com/exec/satya-nadella/",
+          "source_title": "Satya Nadella - Stories",
+          "quote": "Satya Nadella is chairman and CEO of Microsoft.",
+          "evidence_date": "2024-01-01"
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "unverified_information_gaps": [],
+  "audit_records": [
+    {
+      "claim_id": "C1",
+      "claim_text": "Satya Nadella is the current CEO of Microsoft",
+      "cited_url": "https://news.microsoft.com/exec/satya-nadella/",
+      "analyst_evidence": "Satya Nadella is chairman and CEO of Microsoft.",
+      "analyst_extraction_status": "SUCCESS",
+      "auditor_source_status": "SUCCESS",
+      "auditor_evidence": "Satya Nadella is Chairman and Chief Executive Officer of Microsoft.",
+      "verdict": "SUPPORTED",
+      "auditor_explanation": "The provided source explicitly states that Satya Nadella is the Chief Executive Officer of Microsoft.",
+      "source_snippet_extracted": "Satya Nadella is Chairman and Chief Executive Officer of Microsoft.",
+      "correction_triggered": false,
+      "corrected_claim": null,
+      "final_verdict_after_correction": null
+    }
+  ],
+  "audit_summary": {
+    "SUPPORTED": 1,
+    "CONTRADICTED": 0,
+    "UNSUPPORTED": 0,
+    "UNVERIFIABLE": 0,
+    "NO_CITATION": 0
+  },
+  "number_of_claims": 1,
+  "claims_with_evidence": 1,
+  "number_supported": 1,
+  "number_contradicted": 0,
+  "number_unsupported": 0,
+  "number_unverifiable": 0,
+  "number_without_citation": 0,
+  "correction_needed": false,
+  "correction_triggered": false,
+  "claims_corrected": 0,
+  "final_verified_claims": 1,
+  "analyst_amended_answer": null,
+  "final_verified_answer": "Based on the available evidence, Satya Nadella is the current CEO of Microsoft [C1]."
+}

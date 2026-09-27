@@ -1,0 +1,443 @@
+{
+  "run_id": "52f7a576-692b-4c14-896f-257da20fb02f",
+  "session_id": "default_session",
+  "timestamp": "2026-09-26T22:39:38.435821",
+  "original_question": "what is python\ncompanies currently operate in India, and what are their primary operating models?",
+  "question": "what is python\ncompanies currently operate in India, and what are their primary operating models?",
+  "category": null,
+  "execution_time_seconds": 271.88,
+  "planning_time_seconds": 23.426,
+  "search_time_seconds": 1.003,
+  "fetch_time_seconds": 8.562,
+  "analyst_synthesis_time_seconds": 21.94,
+  "auditor_time_seconds": 129.184,
+  "correction_time_seconds": 87.702,
+  "number_of_urls_searched": 3,
+  "number_of_urls_fetched": 5,
+  "number_of_usable_sources": 4,
+  "failures_count": 1,
+  "model_name": "gemini-3.8-flash",
+  "prompt_tokens": 8593,
+  "completion_tokens": 3005,
+  "total_tokens": 11598,
+  "cost_usd": 0.001546,
+  "cost_inr": 0.1345,
+  "entities_detected": [],
+  "references_detected": [],
+  "references_resolved": {},
+  "memory_hits": [],
+  "memory_misses": [],
+  "facts_retrieved_from_memory": [],
+  "clarification_required": false,
+  "clarification_message": null,
+  "resolved_research_question": "what is python\ncompanies currently operate in India, and what are their primary operating models?",
+  "new_facts_written_to_memory": [
+    {
+      "entity": "Python",
+      "attribute": "Frameworks and Libraries",
+      "value": "Django, Flask, PyTorch, TensorFlow, Pandas, NumPy",
+      "source_url": "https://www.python.org/",
+      "fact_date": null
+    }
+  ],
+  "entities_queried_from_memory": [],
+  "entities_saved_to_memory": [
+    "Python"
+  ],
+  "memory_hit": false,
+  "number_of_candidates": 5,
+  "number_of_successful_pages": 4,
+  "number_of_blocked_pages": 0,
+  "number_of_failed_pages": 1,
+  "total_fetch_time_ms": 8562.0,
+  "minimum_evidence_threshold_reached": true,
+  "total_retries_performed": 1,
+  "retry_telemetry": [
+    {
+      "url": "https://www.programiz.com/python-programming/online-compiler/",
+      "domain": "www.programiz.com",
+      "attempt_number": 1,
+      "status_code": null,
+      "error_type": "TIMEOUT",
+      "calculated_delay": 1.0,
+      "retry_after_header": null,
+      "actual_wait_time": 1.225,
+      "final_result": "RETRYING"
+    }
+  ],
+  "candidate_telemetry": [
+    {
+      "url": "https://www.python.org/",
+      "domain": "www.python.org",
+      "start_time_iso": "2026-09-26T22:40:02.872127",
+      "end_time_iso": "2026-09-26T22:40:03.132857",
+      "duration_ms": 264.9999999557622,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 2036,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://www.python.org/downloads/",
+      "domain": "www.python.org",
+      "start_time_iso": "2026-09-26T22:40:02.875719",
+      "end_time_iso": "2026-09-26T22:40:03.221676",
+      "duration_ms": 344.0000000409782,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 12000,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://www.w3schools.com/python/",
+      "domain": "www.w3schools.com",
+      "start_time_iso": "2026-09-26T22:40:02.878078",
+      "end_time_iso": "2026-09-26T22:40:03.543912",
+      "duration_ms": 657.0000000065193,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 1164,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://www.programiz.com/python-programming/online-compiler/",
+      "domain": "www.programiz.com",
+      "start_time_iso": "2026-09-26T22:40:02.882713",
+      "end_time_iso": "2026-09-26T22:40:11.211830",
+      "duration_ms": 8329.000000027008,
+      "status": "EMPTY_CONTENT",
+      "status_code": 200,
+      "is_usable": false,
+      "character_count": 114,
+      "rejection_reason": "Content too brief (114 chars < 180 min threshold).",
+      "total_retries": 1,
+      "retry_attempts": [
+        {
+          "url": "https://www.programiz.com/python-programming/online-compiler/",
+          "domain": "www.programiz.com",
+          "attempt_number": 1,
+          "status_code": null,
+          "error_type": "TIMEOUT",
+          "calculated_delay": 1.0,
+          "retry_after_header": null,
+          "actual_wait_time": 1.225,
+          "final_result": "RETRYING"
+        }
+      ]
+    },
+    {
+      "url": "https://www.geeksforgeeks.org/python/python-programming-language-tutorial/",
+      "domain": "www.geeksforgeeks.org",
+      "start_time_iso": "2026-09-26T22:40:02.885726",
+      "end_time_iso": "2026-09-26T22:40:03.021459",
+      "duration_ms": 141.00000000325963,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 4383,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    }
+  ],
+  "research_plan": [
+    "The user query asks two distinct or interrelated components: a definition/overview of Python, and an inquiry into corporate operating models of companies (specifically tech/multinational entities or Python-centric organizations) operating in India today. Targeted searches will clarify the definition of Python as well as identify key operating models of companies active in India (such as Global Capability Centers, IT services/outsourcing, product engineering, and wholly owned subsidiaries)."
+  ],
+  "search_queries": [
+    "what is Python programming language overview",
+    "primary operating models of companies operating in India GCC outsourcing subsidiaries",
+    "top tech companies operating in India business operating models"
+  ],
+  "tools_invoked": [
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "what is Python programming language overview",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 514.9999999557622,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "primary operating models of companies operating in India GCC outsourcing subsidiaries",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 1000.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "top tech companies operating in India business operating models",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 530.9999999590218,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.python.org/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 264.9999999557622,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.python.org/downloads/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 344.0000000409782,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.w3schools.com/python/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 657.0000000065193,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.programiz.com/python-programming/online-compiler/",
+      "status": "FALLBACK_USED",
+      "status_code": 200,
+      "duration_ms": 8329.000000027008,
+      "error_message": "Content too brief (114 chars < 180 min threshold).",
+      "fallback_applied": "Switched to next candidate source"
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.geeksforgeeks.org/python/python-programming-language-tutorial/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 141.00000000325963,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://www.python.org/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 108.99999999674037,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://www.w3schools.com/python/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 311.9999999762513,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://www.geeksforgeeks.org/python/python-programming-language-tutorial/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 202.9999999795109,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://www.python.org/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 375.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://www.w3schools.com/python/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 1218.9999999827705,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://www.geeksforgeeks.org/python/python-programming-language-tutorial/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 282.00000000651926,
+      "error_message": null,
+      "fallback_applied": null
+    }
+  ],
+  "analyst_draft_answer": "### Overview of Python\nPython is a popular, high-level, interpreted programming language known for its clean syntax, readability, and beginner-friendly nature [C1, C2, C3]. It supports multiple programming paradigms and is heavily backed by robust library and framework support across various domains, reducing the need to build solutions from scratch [C2, C3]. Common use cases for Python include:\n- **AI and Machine Learning:** Libraries and frameworks such as PyTorch, TensorFlow, scikit-learn, LangChain, and Anthropic [C1, C2].\n- **Web Development:** Frameworks like Django, Flask, FastAPI, Pyramid, and Tornado [C1, C2].\n- **Data Science and Scientific/Numeric Computing:** Tools such as Pandas, SciPy, and IPython [C1, C2].\n- **System Administration and Software Development:** Automation tools and software utility packages [C1].\n\n### Corporate Operating Models in India\nRegarding the companies operating in India and their specific operating models, the provided live evidence source material focuses exclusively on the definition, applications, and technical aspects of Python. Therefore, data regarding the exact number of companies operating in India and their primary operating models is currently unverified from the available evidence [C4].",
+  "analyst_citations": [
+    {
+      "id": "[C1]",
+      "url": "https://www.python.org/"
+    },
+    {
+      "id": "[C2]",
+      "url": "https://www.geeksforgeeks.org/python/python-programming-language-tutorial/"
+    },
+    {
+      "id": "[C3]",
+      "url": "https://www.w3schools.com/python/"
+    },
+    {
+      "id": "[C4]",
+      "url": ""
+    }
+  ],
+  "claim_evidence_map": [
+    {
+      "claim_id": "C1",
+      "claim": "Python is used for various applications including web development, GUI development, AI and machine learning, scientific and numeric computing, software development, and system administration.",
+      "evidence": [
+        {
+          "claim_id": "C1",
+          "source_url": "https://www.python.org/",
+          "source_title": "Welcome to Python.org",
+          "quote": "Use Python for… Web Development: Django, Pyramid, Bottle, Tornado, Flask... AI and Machine Learning: PyTorch, TensorFlow, scikit-learn... Scientific and Numeric: SciPy, Pandas, IPython",
+          "evidence_date": "2026"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "C2",
+      "claim": "Python is a popular high-level programming language known for its clean syntax, readability, and rich ecosystem of libraries and frameworks.",
+      "evidence": [
+        {
+          "claim_id": "C2",
+          "source_url": "https://www.geeksforgeeks.org/python/python-programming-language-tutorial/",
+          "source_title": "Python Tutorial - GeeksforGeeks",
+          "quote": "Python is one of the most popular programming languages. It’s simple to use, packed with features and supported by a wide range of libraries and frameworks. Its clean syntax makes it beginner-friendly. - A high-level language used in data science, automation, AI, web development and more. - Known for its readability...",
+          "evidence_date": "2026"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "C3",
+      "claim": "Python can be used on a server to create web applications and is easy to learn.",
+      "evidence": [
+        {
+          "claim_id": "C3",
+          "source_url": "https://www.w3schools.com/python/",
+          "source_title": "Python Tutorial",
+          "quote": "Python is a popular programming language. Python can be used on a server to create web applications. Python is easy to learn - You will enjoy it!",
+          "evidence_date": "2026"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "C4",
+      "claim": "The exact number of companies operating in India and their primary operating models are unverified based on the current search context.",
+      "evidence": [],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "unverified_information_gaps": [
+    "Number of companies currently operating in India",
+    "Primary operating models of companies operating in India"
+  ],
+  "audit_records": [
+    {
+      "claim_id": "C1",
+      "claim_text": "Python is used for various applications including web development, GUI development, AI and machine learning, scientific and numeric computing, software development, and system administration.",
+      "cited_url": "https://www.python.org/",
+      "analyst_evidence": "Use Python for… Web Development: Django, Pyramid, Bottle, Tornado, Flask... AI and Machine Learning: PyTorch, TensorFlow, scikit-learn... Scientific and Numeric: SciPy, Pandas, IPython",
+      "analyst_extraction_status": "SUCCESS",
+      "auditor_source_status": "SUCCESS",
+      "auditor_evidence": "Use Python for…\n- Web Development: Django, Pyramid, Bottle, Tornado, Flask, Litestar, FastAPI\n- GUI Development: tkInter, PyGObject, PyQt, PySide, Kivy, wxPython, DearPyGui\n- AI and Machine Learning: PyTorch, TensorFlow, scikit-learn, Transformers, Anthropic, LangChain\n- Scientific and Numeric: SciPy, Pandas, IPython\n- Software Development: Buildbot, Trac, Roundup\n- System Administration: Ansible, Salt, OpenStack, xonsh",
+      "verdict": "SUPPORTED",
+      "auditor_explanation": "The source explicitly lists Python applications including Web Development, GUI Development, AI and Machine Learning, Scientific and Numeric, Software Development, and System Administration under the 'Use Python for…' section.",
+      "source_snippet_extracted": "Use Python for…\n- Web Development: Django, Pyramid, Bottle, Tornado, Flask, Litestar, FastAPI\n- GUI Development: tkInter, PyGObject, PyQt, PySide, Kivy, wxPython, DearPyGui\n- AI and Machine Learning: PyTorch, TensorFlow, scikit-learn, Transformers, Anthropic, LangChain\n- Scientific and Numeric: SciPy, Pandas, IPython\n- Software Development: Buildbot, Trac, Roundup\n- System Administration: Ansible, Salt, OpenStack, xonsh",
+      "correction_triggered": true,
+      "corrected_claim": "Python is used for various applications including web development, GUI development, AI and machine learning, scientific and numeric computing, software development, and system administration.",
+      "final_verdict_after_correction": "SUPPORTED"
+    },
+    {
+      "claim_id": "C2",
+      "claim_text": "Python is a popular high-level programming language known for its clean syntax, readability, and rich ecosystem of libraries and frameworks.",
+      "cited_url": "https://www.geeksforgeeks.org/python/python-programming-language-tutorial/",
+      "analyst_evidence": "Python is one of the most popular programming languages. It’s simple to use, packed with features and supported by a wide range of libraries and frameworks. Its clean syntax makes it beginner-friendly. - A high-level language used in data science, automation, AI, web development and more. - Known for its readability...",
+      "analyst_extraction_status": "SUCCESS",
+      "auditor_source_status": "SUCCESS",
+      "auditor_evidence": "Python is one of the most popular programming languages. It’s simple to use, packed with features and supported by a wide range of libraries and frameworks. Its clean syntax makes it beginner-friendly.\n- A high-level language used in data science, automation, AI, web development and more.\n- Known for its readability",
+      "verdict": "SUPPORTED",
+      "auditor_explanation": "The source explicitly states that Python is a popular high-level language, features clean syntax and readability, and is supported by a wide range of libraries and frameworks.",
+      "source_snippet_extracted": "Python is one of the most popular programming languages. It’s simple to use, packed with features and supported by a wide range of libraries and frameworks. Its clean syntax makes it beginner-friendly.\n- A high-level language used in data science, automation, AI, web development and more.\n- Known for its readability",
+      "correction_triggered": true,
+      "corrected_claim": "Python is a popular high-level programming language known for its clean syntax, readability, and rich ecosystem of libraries and frameworks.",
+      "final_verdict_after_correction": "SUPPORTED"
+    },
+    {
+      "claim_id": "C3",
+      "claim_text": "Python can be used on a server to create web applications and is easy to learn.",
+      "cited_url": "https://www.w3schools.com/python/",
+      "analyst_evidence": "Python is a popular programming language. Python can be used on a server to create web applications. Python is easy to learn - You will enjoy it!",
+      "analyst_extraction_status": "SUCCESS",
+      "auditor_source_status": "SUCCESS",
+      "auditor_evidence": "Python can be used on a server to create web applications.\nPython is easy to learn - You will enjoy it!",
+      "verdict": "SUPPORTED",
+      "auditor_explanation": "The source text explicitly states both that 'Python can be used on a server to create web applications.' and 'Python is easy to learn'.",
+      "source_snippet_extracted": "Python can be used on a server to create web applications.\nPython is easy to learn - You will enjoy it!",
+      "correction_triggered": true,
+      "corrected_claim": "Python can be used on a server to create web applications and is easy to learn.",
+      "final_verdict_after_correction": "SUPPORTED"
+    },
+    {
+      "claim_id": "C4",
+      "claim_text": "The exact number of companies operating in India and their primary operating models are unverified based on the current search context.",
+      "cited_url": null,
+      "analyst_evidence": "",
+      "analyst_extraction_status": "NO_URL",
+      "auditor_source_status": null,
+      "auditor_evidence": null,
+      "verdict": "NO_CITATION",
+      "auditor_explanation": "No citation or source URL was attached to this factual assertion.",
+      "source_snippet_extracted": null,
+      "correction_triggered": true,
+      "corrected_claim": "The exact number of companies operating in India and their primary operating models are unverified based on the current search context.",
+      "final_verdict_after_correction": "NO_CITATION"
+    }
+  ],
+  "audit_summary": {
+    "SUPPORTED": 3,
+    "CONTRADICTED": 0,
+    "UNSUPPORTED": 0,
+    "UNVERIFIABLE": 0,
+    "NO_CITATION": 1
+  },
+  "number_of_claims": 4,
+  "claims_with_evidence": 3,
+  "number_supported": 3,
+  "number_contradicted": 0,
+  "number_unsupported": 0,
+  "number_unverifiable": 0,
+  "number_without_citation": 1,
+  "correction_needed": true,
+  "correction_triggered": true,
+  "claims_corrected": 1,
+  "final_verified_claims": 3,
+  "analyst_amended_answer": "### Overview of Python\nPython is a popular, high-level, interpreted programming language known for its clean syntax, readability, and beginner-friendly nature [C1, C2, C3]. It supports multiple programming paradigms and is heavily backed by robust library and framework support across various domains, reducing the need to build solutions from scratch [C2, C3]. Common use cases for Python include:\n- **AI and Machine Learning:** Libraries and frameworks such as PyTorch, TensorFlow, scikit-learn, LangChain, and Anthropic [C1, C2].\n- **Web Development:** Frameworks like Django, Flask, FastAPI, Pyramid, and Tornado [C1, C2].\n- **Data Science and Scientific/Numeric Computing:** Tools such as Pandas, SciPy, and IPython [C1, C2].\n- **System Administration and Software Development:** Automation tools and software utility packages [C1].\n\n### Unverified Information / Gaps\n- **Corporate Operating Models in India:** Data regarding the exact number of companies operating in India and their primary operating models is currently unverified from the available evidence [C4].",
+  "final_verified_answer": "### Overview of Python\nPython is a popular, high-level, interpreted programming language known for its clean syntax, readability, and beginner-friendly nature [C1, C2, C3]. It supports multiple programming paradigms and is heavily backed by robust library and framework support across various domains, reducing the need to build solutions from scratch [C2, C3]. Common use cases for Python include:\n- **AI and Machine Learning:** Libraries and frameworks such as PyTorch, TensorFlow, scikit-learn, LangChain, and Anthropic [C1, C2].\n- **Web Development:** Frameworks like Django, Flask, FastAPI, Pyramid, and Tornado [C1, C2].\n- **Data Science and Scientific/Numeric Computing:** Tools such as Pandas, SciPy, and IPython [C1, C2].\n- **System Administration and Software Development:** Automation tools and software utility packages [C1].\n\n### Unverified Information / Gaps\n- **Corporate Operating Models in India:** Data regarding the exact number of companies operating in India and their primary operating models is currently unverified from the available evidence [C4]."
+}

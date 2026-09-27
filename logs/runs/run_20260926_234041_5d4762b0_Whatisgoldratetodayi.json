@@ -1,0 +1,136 @@
+{
+  "run_id": "5d4762b0-e447-44d1-a521-59360ad6857d",
+  "session_id": "default_session",
+  "timestamp": "2026-09-26T23:39:40.876238",
+  "original_question": "What is gold rate today in chennai?",
+  "question": "What is gold rate today in chennai?",
+  "category": null,
+  "execution_time_seconds": 60.22,
+  "planning_time_seconds": 19.976,
+  "search_time_seconds": 1.031,
+  "fetch_time_seconds": 0.0,
+  "analyst_synthesis_time_seconds": 19.789,
+  "auditor_time_seconds": 0.0,
+  "correction_time_seconds": 19.38,
+  "number_of_urls_searched": 3,
+  "number_of_urls_fetched": 0,
+  "number_of_usable_sources": 0,
+  "failures_count": 0,
+  "model_name": "gemini-3.8-flash",
+  "prompt_tokens": 1192,
+  "completion_tokens": 419,
+  "total_tokens": 1611,
+  "cost_usd": 0.000215,
+  "cost_inr": 0.0187,
+  "entities_detected": [],
+  "references_detected": [],
+  "references_resolved": {},
+  "memory_hits": [],
+  "memory_misses": [],
+  "facts_retrieved_from_memory": [],
+  "clarification_required": false,
+  "clarification_message": null,
+  "resolved_research_question": "What is gold rate today in chennai?",
+  "new_facts_written_to_memory": [],
+  "entities_queried_from_memory": [],
+  "entities_saved_to_memory": [
+    "Chennai"
+  ],
+  "memory_hit": false,
+  "number_of_candidates": 0,
+  "number_of_successful_pages": 0,
+  "number_of_blocked_pages": 0,
+  "number_of_failed_pages": 0,
+  "total_fetch_time_ms": 0.0,
+  "minimum_evidence_threshold_reached": false,
+  "total_retries_performed": 0,
+  "retry_telemetry": [],
+  "candidate_telemetry": [],
+  "research_plan": [
+    "The user is asking for the current gold rate in Chennai today. I need to search for live gold prices in Chennai to provide an accurate and up-to-date answer."
+  ],
+  "search_queries": [
+    "gold rate today in chennai 22k 24k",
+    "chennai gold price today live",
+    "today gold rate in chennai per gram"
+  ],
+  "tools_invoked": [
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "gold rate today in chennai 22k 24k",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 1014.9999999557622,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "chennai gold price today live",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 625.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "today gold rate in chennai per gram",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 671.9999999622814,
+      "error_message": null,
+      "fallback_applied": null
+    }
+  ],
+  "analyst_draft_answer": "As I do not have access to live internet browsing or real-time financial feeds to fetch today's gold rate in Chennai, this information is currently unverified [C1].",
+  "analyst_citations": [],
+  "claim_evidence_map": [
+    {
+      "claim_id": "C1",
+      "claim": "The current gold rate in Chennai today cannot be determined due to lack of live web evidence.",
+      "evidence": [],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "unverified_information_gaps": [
+    "Current gold rate in Chennai today"
+  ],
+  "audit_records": [
+    {
+      "claim_id": "C1",
+      "claim_text": "The current gold rate in Chennai today cannot be determined due to lack of live web evidence.",
+      "cited_url": null,
+      "analyst_evidence": "",
+      "analyst_extraction_status": "NO_URL",
+      "auditor_source_status": null,
+      "auditor_evidence": null,
+      "verdict": "NO_CITATION",
+      "auditor_explanation": "No citation or source URL was attached to this factual assertion.",
+      "source_snippet_extracted": null,
+      "correction_triggered": true,
+      "corrected_claim": "The current gold rate in Chennai today cannot be determined due to lack of live web evidence.",
+      "final_verdict_after_correction": "NO_CITATION"
+    }
+  ],
+  "audit_summary": {
+    "SUPPORTED": 0,
+    "CONTRADICTED": 0,
+    "UNSUPPORTED": 0,
+    "UNVERIFIABLE": 0,
+    "NO_CITATION": 1
+  },
+  "number_of_claims": 1,
+  "claims_with_evidence": 0,
+  "number_supported": 0,
+  "number_contradicted": 0,
+  "number_unsupported": 0,
+  "number_unverifiable": 0,
+  "number_without_citation": 1,
+  "correction_needed": true,
+  "correction_triggered": true,
+  "claims_corrected": 1,
+  "final_verified_claims": 0,
+  "analyst_amended_answer": "As an AI without access to live internet browsing or real-time financial feeds, I cannot provide today's gold rate in Chennai [C1]. This information is currently unverified.",
+  "final_verified_answer": "As an AI without access to live internet browsing or real-time financial feeds, I cannot provide today's gold rate in Chennai [C1]. This information is currently unverified."
+}

@@ -1,0 +1,160 @@
+{
+  "run_id": "1337ebbc-234e-43cc-b6ea-2024ac482c46",
+  "session_id": "default_session",
+  "timestamp": "2026-09-27T10:53:35.690675",
+  "original_question": "gold rate in salem",
+  "question": "gold rate in salem",
+  "category": null,
+  "execution_time_seconds": 67.16,
+  "planning_time_seconds": 26.268,
+  "search_time_seconds": 1.27,
+  "fetch_time_seconds": 0.0,
+  "analyst_synthesis_time_seconds": 20.164,
+  "auditor_time_seconds": 0.0,
+  "correction_time_seconds": 19.431,
+  "number_of_urls_searched": 2,
+  "number_of_urls_fetched": 0,
+  "number_of_usable_sources": 0,
+  "failures_count": 0,
+  "model_name": "gemini-3.8-flash",
+  "prompt_tokens": 1899,
+  "completion_tokens": 446,
+  "total_tokens": 2345,
+  "cost_usd": 0.000276,
+  "cost_inr": 0.024,
+  "entities_detected": [
+    "Chennai Gold Market"
+  ],
+  "references_detected": [],
+  "references_resolved": {},
+  "memory_hits": [
+    "Chennai Gold Market"
+  ],
+  "memory_misses": [],
+  "facts_retrieved_from_memory": [
+    {
+      "entity": "Chennai Gold Market",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Chennai Gold Market 18K Gold Rate (1g): ₹11,770",
+      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -0.0
+    },
+    {
+      "entity": "Chennai Gold Market",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Chennai Gold Market 24K Gold Rate (1g): ₹15,273",
+      "source_url": "GoodReturns (goodreturns.in)",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -0.0
+    },
+    {
+      "entity": "Chennai Gold Market",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Chennai Gold Market 22K Gold Rate (1g): ₹14,000",
+      "source_url": "GoodReturns (goodreturns.in)",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -0.0
+    }
+  ],
+  "clarification_required": false,
+  "clarification_message": null,
+  "resolved_research_question": "gold rate in salem",
+  "new_facts_written_to_memory": [],
+  "entities_queried_from_memory": [
+    "Chennai Gold Market"
+  ],
+  "entities_saved_to_memory": [
+    "Salem"
+  ],
+  "memory_hit": true,
+  "number_of_candidates": 0,
+  "number_of_successful_pages": 0,
+  "number_of_blocked_pages": 0,
+  "number_of_failed_pages": 0,
+  "total_fetch_time_ms": 0.0,
+  "minimum_evidence_threshold_reached": false,
+  "total_retries_performed": 0,
+  "retry_telemetry": [],
+  "candidate_telemetry": [],
+  "research_plan": [
+    "The user wants to find the current gold rate in Salem. Although we have Chennai gold market data in memory, Salem is a separate city in Tamil Nadu and requires its own specific gold rate search to ensure accuracy."
+  ],
+  "search_queries": [
+    "gold rate in salem today 22k 24k",
+    "salem gold rate today goodreturns"
+  ],
+  "tools_invoked": [
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "gold rate in salem today 22k 24k",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 1265.0000000139698,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "salem gold rate today goodreturns",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 765.0000000139698,
+      "error_message": null,
+      "fallback_applied": null
+    }
+  ],
+  "analyst_draft_answer": "Currently, there is no live web evidence or verified data available to provide the specific gold rate in Salem [C1]. While data exists for the Chennai gold market [C1], gold rates specific to Salem remain unverified in the current knowledge base and require fresh live search evidence.",
+  "analyst_citations": [],
+  "claim_evidence_map": [
+    {
+      "claim_id": "C1",
+      "claim": "Specific live gold rates for Salem are not available or verified in the current evidence base.",
+      "evidence": [],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "unverified_information_gaps": [
+    "Current gold rate for Salem (22K, 24K, and 18K per gram)"
+  ],
+  "audit_records": [
+    {
+      "claim_id": "C1",
+      "claim_text": "Specific live gold rates for Salem are not available or verified in the current evidence base.",
+      "cited_url": null,
+      "analyst_evidence": "",
+      "analyst_extraction_status": "NO_URL",
+      "auditor_source_status": null,
+      "auditor_evidence": null,
+      "verdict": "NO_CITATION",
+      "auditor_explanation": "No citation or source URL was attached to this factual assertion.",
+      "source_snippet_extracted": null,
+      "correction_triggered": true,
+      "corrected_claim": "Specific live gold rates for Salem are currently unverified in the knowledge base.",
+      "final_verdict_after_correction": "NO_CITATION"
+    }
+  ],
+  "audit_summary": {
+    "SUPPORTED": 0,
+    "CONTRADICTED": 0,
+    "UNSUPPORTED": 0,
+    "UNVERIFIABLE": 0,
+    "NO_CITATION": 1
+  },
+  "number_of_claims": 1,
+  "claims_with_evidence": 0,
+  "number_supported": 0,
+  "number_contradicted": 0,
+  "number_unsupported": 0,
+  "number_unverifiable": 0,
+  "number_without_citation": 1,
+  "correction_needed": true,
+  "correction_triggered": true,
+  "claims_corrected": 1,
+  "final_verified_claims": 0,
+  "analyst_amended_answer": "Specific live gold rates for Salem are currently unverified as there is no live web evidence or cited data available in the knowledge base to support a specific rate [C1].",
+  "final_verified_answer": "Specific live gold rates for Salem are currently unverified as there is no live web evidence or cited data available in the knowledge base to support a specific rate [C1]."
+}

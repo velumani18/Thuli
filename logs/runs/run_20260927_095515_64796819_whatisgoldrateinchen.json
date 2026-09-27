@@ -1,0 +1,257 @@
+{
+  "run_id": "64796819-64ae-46b0-8d8d-13aa76b5a097",
+  "session_id": "default_session",
+  "timestamp": "2026-09-27T09:54:29.400976",
+  "original_question": "what is gold rate in chennai today?",
+  "question": "what is gold rate in chennai today?",
+  "category": null,
+  "execution_time_seconds": 46.59,
+  "planning_time_seconds": 21.092,
+  "search_time_seconds": 0.694,
+  "fetch_time_seconds": 2.594,
+  "analyst_synthesis_time_seconds": 22.178,
+  "auditor_time_seconds": 0.0,
+  "correction_time_seconds": 0.0,
+  "number_of_urls_searched": 2,
+  "number_of_urls_fetched": 5,
+  "number_of_usable_sources": 5,
+  "failures_count": 0,
+  "model_name": "gemini-3.8-flash",
+  "prompt_tokens": 3720,
+  "completion_tokens": 281,
+  "total_tokens": 4001,
+  "cost_usd": 0.000363,
+  "cost_inr": 0.0316,
+  "entities_detected": [
+    "Chennai",
+    "Chennai Gold Market"
+  ],
+  "references_detected": [],
+  "references_resolved": {},
+  "memory_hits": [
+    "Chennai Gold Market"
+  ],
+  "memory_misses": [
+    "Chennai"
+  ],
+  "facts_retrieved_from_memory": [
+    {
+      "entity": "Chennai Gold Market",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Chennai Gold Market 18K Gold Rate (1g): ₹11,770",
+      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -1.1095
+    },
+    {
+      "entity": "Chennai Gold Market",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Chennai Gold Market 24K Gold Rate (1g): ₹15,273",
+      "source_url": "https://www.livechennai.com/gold_silverrate.asp",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -0.9764
+    },
+    {
+      "entity": "Chennai Gold Market",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Chennai Gold Market 22K Gold Rate (1g): ₹14,000",
+      "source_url": "https://www.livechennai.com/gold_silverrate.asp",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -0.9764
+    }
+  ],
+  "clarification_required": false,
+  "clarification_message": null,
+  "resolved_research_question": "what is gold rate in chennai today?",
+  "new_facts_written_to_memory": [],
+  "entities_queried_from_memory": [
+    "Chennai",
+    "Chennai Gold Market"
+  ],
+  "entities_saved_to_memory": [
+    "Chennai Gold Market"
+  ],
+  "memory_hit": true,
+  "number_of_candidates": 5,
+  "number_of_successful_pages": 5,
+  "number_of_blocked_pages": 0,
+  "number_of_failed_pages": 0,
+  "total_fetch_time_ms": 2594.0,
+  "minimum_evidence_threshold_reached": true,
+  "total_retries_performed": 0,
+  "retry_telemetry": [],
+  "candidate_telemetry": [
+    {
+      "url": "https://todaydateandtime.com/",
+      "domain": "todaydateandtime.com",
+      "start_time_iso": "2026-09-27T09:54:51.190590",
+      "end_time_iso": "2026-09-27T09:54:52.759897",
+      "duration_ms": 1561.9999999762513,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 10947,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://www.calendardate.com/todays.htm",
+      "domain": "www.calendardate.com",
+      "start_time_iso": "2026-09-27T09:54:51.193110",
+      "end_time_iso": "2026-09-27T09:54:52.743894",
+      "duration_ms": 1547.000000020489,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 1682,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://www.indiatoday.in/",
+      "domain": "www.indiatoday.in",
+      "start_time_iso": "2026-09-27T09:54:51.194137",
+      "end_time_iso": "2026-09-27T09:54:51.588232",
+      "duration_ms": 391.00000000325963,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 5588,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://m.timesofindia.com/home/headlines",
+      "domain": "m.timesofindia.com",
+      "start_time_iso": "2026-09-27T09:54:51.195156",
+      "end_time_iso": "2026-09-27T09:54:52.214468",
+      "duration_ms": 1016.0000000032596,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 843,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://www.calendarr.com/india/",
+      "domain": "www.calendarr.com",
+      "start_time_iso": "2026-09-27T09:54:51.195156",
+      "end_time_iso": "2026-09-27T09:54:53.710012",
+      "duration_ms": 2516.0000000032596,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 3758,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    }
+  ],
+  "research_plan": [
+    "The user wants to know the current gold rate in Chennai today. I need to search for live gold rates (22k and 24k per gram) in Chennai to provide up-to-date and accurate financial information."
+  ],
+  "search_queries": [
+    "gold rate in chennai today GoodReturns",
+    "today gold price in chennai 22k 24k LiveChennai"
+  ],
+  "tools_invoked": [
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "gold rate in chennai today GoodReturns",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 702.9999999795109,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "today gold price in chennai 22k 24k LiveChennai",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 671.9999999622814,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://todaydateandtime.com/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 1561.9999999762513,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.calendardate.com/todays.htm",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 1547.000000020489,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.indiatoday.in/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 391.00000000325963,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://m.timesofindia.com/home/headlines",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 1016.0000000032596,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.calendarr.com/india/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 2516.0000000032596,
+      "error_message": null,
+      "fallback_applied": null
+    }
+  ],
+  "analyst_draft_answer": "Based on the provided context, the current specific gold rate in Chennai today is unverified through the live search results, though prior memory data indicates a 22K gold rate of ₹14,000 per gram and a 24K gold rate of ₹15,273 per gram [UNVERIFIED].",
+  "analyst_citations": [],
+  "claim_evidence_map": [],
+  "unverified_information_gaps": [
+    "Live gold rate in Chennai for today"
+  ],
+  "audit_records": [],
+  "audit_summary": {
+    "SUPPORTED": 0,
+    "CONTRADICTED": 0,
+    "UNSUPPORTED": 0,
+    "UNVERIFIABLE": 0,
+    "NO_CITATION": 0
+  },
+  "number_of_claims": 0,
+  "claims_with_evidence": 0,
+  "number_supported": 0,
+  "number_contradicted": 0,
+  "number_unsupported": 0,
+  "number_unverifiable": 0,
+  "number_without_citation": 0,
+  "correction_needed": false,
+  "correction_triggered": false,
+  "claims_corrected": 0,
+  "final_verified_claims": 0,
+  "analyst_amended_answer": null,
+  "final_verified_answer": "Based on the provided context, the current specific gold rate in Chennai today is unverified through the live search results, though prior memory data indicates a 22K gold rate of ₹14,000 per gram and a 24K gold rate of ₹15,273 per gram [UNVERIFIED]."
+}

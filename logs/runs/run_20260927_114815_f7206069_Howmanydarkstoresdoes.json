@@ -1,0 +1,178 @@
+{
+  "run_id": "f7206069-a16e-4161-be2d-092b90fde6f0",
+  "session_id": "default_session",
+  "timestamp": "2026-09-27T11:48:15.183638",
+  "original_question": "How many dark stores does Zepto operate?",
+  "question": "How many dark stores does Zepto operate?",
+  "category": "quick_commerce",
+  "execution_time_seconds": 0.08,
+  "planning_time_seconds": 0.0,
+  "search_time_seconds": 0.0,
+  "fetch_time_seconds": 0.12,
+  "analyst_synthesis_time_seconds": 0.0,
+  "auditor_time_seconds": 0.001,
+  "correction_time_seconds": 0.0,
+  "number_of_urls_searched": 2,
+  "number_of_urls_fetched": 1,
+  "number_of_usable_sources": 1,
+  "failures_count": 0,
+  "model_name": "gemini-flash-lite-latest",
+  "prompt_tokens": 150,
+  "completion_tokens": 90,
+  "total_tokens": 240,
+  "cost_usd": 0.000038,
+  "cost_inr": 0.0033,
+  "entities_detected": [],
+  "references_detected": [],
+  "references_resolved": {},
+  "memory_hits": [],
+  "memory_misses": [],
+  "facts_retrieved_from_memory": [],
+  "clarification_required": false,
+  "clarification_message": null,
+  "resolved_research_question": "How many dark stores does Zepto operate?",
+  "new_facts_written_to_memory": [
+    {
+      "entity": "Zepto",
+      "attribute": "store_count",
+      "value": "350",
+      "source_url": "https://mock.test/zepto_expansion",
+      "fact_date": null
+    }
+  ],
+  "entities_queried_from_memory": [],
+  "entities_saved_to_memory": [
+    "Zepto"
+  ],
+  "memory_hit": false,
+  "number_of_candidates": 1,
+  "number_of_successful_pages": 1,
+  "number_of_blocked_pages": 0,
+  "number_of_failed_pages": 0,
+  "total_fetch_time_ms": 120.0,
+  "minimum_evidence_threshold_reached": true,
+  "total_retries_performed": 0,
+  "retry_telemetry": [],
+  "candidate_telemetry": [
+    {
+      "url": "https://mock.test/zepto_expansion",
+      "domain": "",
+      "start_time_iso": null,
+      "end_time_iso": null,
+      "duration_ms": 0.0,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 89,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    }
+  ],
+  "research_plan": [
+    "Investigate Zepto dark stores"
+  ],
+  "search_queries": [
+    "Zepto dark stores count 2024",
+    "How many dark stores does Zepto operate?"
+  ],
+  "tools_invoked": [
+    {
+      "tool_name": "search_test",
+      "target": "Zepto",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 0.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_test",
+      "target": "Zepto",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 0.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://mock.test/zepto_expansion",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 0.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://mock.test/zepto_expansion",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 0.0,
+      "error_message": null,
+      "fallback_applied": null
+    }
+  ],
+  "analyst_draft_answer": "Zepto operates 350 dark stores across India [C1].",
+  "analyst_citations": [
+    {
+      "id": "[C1]",
+      "url": "https://mock.test/zepto_expansion"
+    }
+  ],
+  "claim_evidence_map": [
+    {
+      "claim_id": "C1",
+      "claim": "Zepto operates 350 dark stores in India",
+      "evidence": [
+        {
+          "claim_id": "C1",
+          "source_url": "https://mock.test/zepto_expansion",
+          "source_title": null,
+          "quote": "operates 350 dark stores in India",
+          "evidence_date": null
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "unverified_information_gaps": [],
+  "audit_records": [
+    {
+      "claim_id": "C1",
+      "claim_text": "Zepto operates 350 dark stores in India",
+      "cited_url": "https://mock.test/zepto_expansion",
+      "analyst_evidence": "operates 350 dark stores in India",
+      "analyst_extraction_status": "SUCCESS",
+      "auditor_source_status": "SUCCESS",
+      "auditor_evidence": "Zepto operates 350 dark stores in India",
+      "verdict": "SUPPORTED",
+      "auditor_explanation": "Verified from source text.",
+      "source_snippet_extracted": "Zepto operates 350 dark stores in India",
+      "correction_triggered": false,
+      "corrected_claim": null,
+      "final_verdict_after_correction": null
+    }
+  ],
+  "audit_summary": {
+    "SUPPORTED": 1,
+    "CONTRADICTED": 0,
+    "UNSUPPORTED": 0,
+    "UNVERIFIABLE": 0,
+    "NO_CITATION": 0
+  },
+  "number_of_claims": 1,
+  "claims_with_evidence": 1,
+  "number_supported": 1,
+  "number_contradicted": 0,
+  "number_unsupported": 0,
+  "number_unverifiable": 0,
+  "number_without_citation": 0,
+  "correction_needed": false,
+  "correction_triggered": false,
+  "claims_corrected": 0,
+  "final_verified_claims": 1,
+  "analyst_amended_answer": null,
+  "final_verified_answer": "Zepto operates 350 dark stores across India [C1]."
+}

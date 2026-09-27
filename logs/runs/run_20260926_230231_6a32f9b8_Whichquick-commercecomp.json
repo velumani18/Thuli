@@ -1,0 +1,244 @@
+{
+  "run_id": "6a32f9b8-9b0d-4f9a-80b3-dd79a0920816",
+  "session_id": "default_session",
+  "timestamp": "2026-09-26T23:01:03.852351",
+  "original_question": "Which quick-commerce companies currently operate in India, and what are their primary operating models?",
+  "question": "Which quick-commerce companies currently operate in India, and what are their primary operating models?",
+  "category": null,
+  "execution_time_seconds": 87.46,
+  "planning_time_seconds": 20.108,
+  "search_time_seconds": 1.123,
+  "fetch_time_seconds": 1.171,
+  "analyst_synthesis_time_seconds": 65.018,
+  "auditor_time_seconds": 0.0,
+  "correction_time_seconds": 0.0,
+  "number_of_urls_searched": 3,
+  "number_of_urls_fetched": 5,
+  "number_of_usable_sources": 3,
+  "failures_count": 2,
+  "model_name": "gemini-3.8-flash",
+  "prompt_tokens": 1938,
+  "completion_tokens": 265,
+  "total_tokens": 2203,
+  "cost_usd": 0.000225,
+  "cost_inr": 0.0196,
+  "entities_detected": [
+    "Python"
+  ],
+  "references_detected": [],
+  "references_resolved": {},
+  "memory_hits": [
+    "Python"
+  ],
+  "memory_misses": [],
+  "facts_retrieved_from_memory": [
+    {
+      "entity": "Python",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Python Frameworks and Libraries: Django, Flask, PyTorch, TensorFlow, Pandas, NumPy",
+      "source_url": "https://www.python.org/",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -0.4891
+    }
+  ],
+  "clarification_required": false,
+  "clarification_message": null,
+  "resolved_research_question": "Which quick-commerce companies currently operate in India, and what are their primary operating models?",
+  "new_facts_written_to_memory": [],
+  "entities_queried_from_memory": [
+    "Python"
+  ],
+  "entities_saved_to_memory": [],
+  "memory_hit": true,
+  "number_of_candidates": 5,
+  "number_of_successful_pages": 3,
+  "number_of_blocked_pages": 0,
+  "number_of_failed_pages": 2,
+  "total_fetch_time_ms": 1171.0,
+  "minimum_evidence_threshold_reached": true,
+  "total_retries_performed": 0,
+  "retry_telemetry": [],
+  "candidate_telemetry": [
+    {
+      "url": "https://quickdraw.withgoogle.com/",
+      "domain": "quickdraw.withgoogle.com",
+      "start_time_iso": "2026-09-26T23:01:25.085148",
+      "end_time_iso": "2026-09-26T23:01:25.869683",
+      "duration_ms": 781.0000000172295,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 561,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://www.quickheal.co.in/installer",
+      "domain": "www.quickheal.co.in",
+      "start_time_iso": "2026-09-26T23:01:25.085148",
+      "end_time_iso": "2026-09-26T23:01:26.019134",
+      "duration_ms": 936.9999999762513,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 6706,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://quicktv.co.in/",
+      "domain": "quicktv.co.in",
+      "start_time_iso": "2026-09-26T23:01:25.085148",
+      "end_time_iso": "2026-09-26T23:01:26.253106",
+      "duration_ms": 1170.9999999729916,
+      "status": "EMPTY_CONTENT",
+      "status_code": 200,
+      "is_usable": false,
+      "character_count": 0,
+      "rejection_reason": "Page rendered empty or requires JavaScript hydration (SPA).",
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://www.quickcompany.in/",
+      "domain": "www.quickcompany.in",
+      "start_time_iso": "2026-09-26T23:01:25.085148",
+      "end_time_iso": "2026-09-26T23:01:25.821884",
+      "duration_ms": 733.9999999967404,
+      "status": "EMPTY_CONTENT",
+      "status_code": 200,
+      "is_usable": false,
+      "character_count": 160,
+      "rejection_reason": "Content too brief (160 chars < 180 min threshold).",
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://aws.amazon.com/quick/desktop/",
+      "domain": "aws.amazon.com",
+      "start_time_iso": "2026-09-26T23:01:25.093897",
+      "end_time_iso": "2026-09-26T23:01:25.558559",
+      "duration_ms": 452.9999999795109,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 2103,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    }
+  ],
+  "research_plan": [
+    "The user is asking for quick-commerce companies currently operating in India and their primary operating models. I need to search for current market leaders in India's quick-commerce sector and analyze their business models, such as dark stores and inventory-led approaches."
+  ],
+  "search_queries": [
+    "quick commerce companies India operating models",
+    "Blinkit Zepto Instamart operating model dark stores India",
+    "top quick commerce startups India 2024"
+  ],
+  "tools_invoked": [
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "quick commerce companies India operating models",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 750.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "Blinkit Zepto Instamart operating model dark stores India",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 750.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "top quick commerce startups India 2024",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 1125.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://quickdraw.withgoogle.com/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 781.0000000172295,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.quickheal.co.in/installer",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 936.9999999762513,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://quicktv.co.in/",
+      "status": "FALLBACK_USED",
+      "status_code": 200,
+      "duration_ms": 1170.9999999729916,
+      "error_message": "Page rendered empty or requires JavaScript hydration (SPA).",
+      "fallback_applied": "Switched to next candidate source"
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.quickcompany.in/",
+      "status": "FALLBACK_USED",
+      "status_code": 200,
+      "duration_ms": 733.9999999967404,
+      "error_message": "Content too brief (160 chars < 180 min threshold).",
+      "fallback_applied": "Switched to next candidate source"
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://aws.amazon.com/quick/desktop/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 452.9999999795109,
+      "error_message": null,
+      "fallback_applied": null
+    }
+  ],
+  "analyst_draft_answer": "Based on the provided evidence, there is no information available regarding quick-commerce companies operating in India or their primary operating models [UNVERIFIED].",
+  "analyst_citations": [],
+  "claim_evidence_map": [],
+  "unverified_information_gaps": [
+    "Quick-commerce companies currently operating in India",
+    "Primary operating models of quick-commerce companies in India"
+  ],
+  "audit_records": [],
+  "audit_summary": {
+    "SUPPORTED": 0,
+    "CONTRADICTED": 0,
+    "UNSUPPORTED": 0,
+    "UNVERIFIABLE": 0,
+    "NO_CITATION": 0
+  },
+  "number_of_claims": 0,
+  "claims_with_evidence": 0,
+  "number_supported": 0,
+  "number_contradicted": 0,
+  "number_unsupported": 0,
+  "number_unverifiable": 0,
+  "number_without_citation": 0,
+  "correction_needed": false,
+  "correction_triggered": false,
+  "claims_corrected": 0,
+  "final_verified_claims": 0,
+  "analyst_amended_answer": null,
+  "final_verified_answer": "Based on the provided evidence, there is no information available regarding quick-commerce companies operating in India or their primary operating models [UNVERIFIED]."
+}

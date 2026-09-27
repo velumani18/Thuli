@@ -1,0 +1,157 @@
+{
+  "run_id": "cba6d81b-190d-44d2-80d1-009ec52f3dd0",
+  "session_id": "default_session",
+  "timestamp": "2026-09-26T23:03:29.663148",
+  "original_question": "what is a game?",
+  "question": "what is a game?",
+  "category": null,
+  "execution_time_seconds": 91.43,
+  "planning_time_seconds": 23.307,
+  "search_time_seconds": 1.495,
+  "fetch_time_seconds": 0.0,
+  "analyst_synthesis_time_seconds": 33.562,
+  "auditor_time_seconds": 0.0,
+  "correction_time_seconds": 33.037,
+  "number_of_urls_searched": 3,
+  "number_of_urls_fetched": 0,
+  "number_of_usable_sources": 0,
+  "failures_count": 0,
+  "model_name": "gemini-3.8-flash",
+  "prompt_tokens": 1469,
+  "completion_tokens": 609,
+  "total_tokens": 2078,
+  "cost_usd": 0.000293,
+  "cost_inr": 0.0255,
+  "entities_detected": [],
+  "references_detected": [],
+  "references_resolved": {},
+  "memory_hits": [],
+  "memory_misses": [],
+  "facts_retrieved_from_memory": [],
+  "clarification_required": false,
+  "clarification_message": null,
+  "resolved_research_question": "what is a game?",
+  "new_facts_written_to_memory": [],
+  "entities_queried_from_memory": [],
+  "entities_saved_to_memory": [],
+  "memory_hit": false,
+  "number_of_candidates": 0,
+  "number_of_successful_pages": 0,
+  "number_of_blocked_pages": 0,
+  "number_of_failed_pages": 0,
+  "total_fetch_time_ms": 0.0,
+  "minimum_evidence_threshold_reached": false,
+  "total_retries_performed": 0,
+  "retry_telemetry": [],
+  "candidate_telemetry": [],
+  "research_plan": [
+    "To answer the fundamental question 'what is a game?', we need to explore definitions from philosophy, game theory, sociology, and digital media studies. The investigation will look into formal definitions, key elements (like rules, goals, and play), and classifications of games."
+  ],
+  "search_queries": [
+    "definition of a game philosophy sociology",
+    "key elements of a game rules play goals",
+    "what constitutes a game formal definition"
+  ],
+  "tools_invoked": [
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "definition of a game philosophy sociology",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 1500.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "key elements of a game rules play goals",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 1437.999999965541,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_duckduckgo",
+      "target": "what constitutes a game formal definition",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 1109.9999999860302,
+      "error_message": null,
+      "fallback_applied": null
+    }
+  ],
+  "analyst_draft_answer": "A game is a structured form of play, usually undertaken for enjoyment and sometimes used as an educational tool [UNVERIFIED]. Definitions of what constitutes a game vary across philosophy, game theory, and media studies, typically incorporating elements such as rules, goals, challenges, and player interaction [UNVERIFIED]. Because no live evidence was provided to substantiate formal academic definitions or specific properties, these aspects remain unverified [UNVERIFIED].",
+  "analyst_citations": [],
+  "claim_evidence_map": [
+    {
+      "claim_id": "C1",
+      "claim": "A game is a structured form of play usually undertaken for enjoyment or education.",
+      "evidence": [],
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "C2",
+      "claim": "Definitions of games incorporate elements such as rules, goals, challenges, and player interaction.",
+      "evidence": [],
+      "status": "UNVERIFIED"
+    }
+  ],
+  "unverified_information_gaps": [
+    "Formal philosophical and game-theoretic definitions of a game",
+    "Key structural elements of games such as rules, goals, and play",
+    "Classifications of games across sociology and digital media studies"
+  ],
+  "audit_records": [
+    {
+      "claim_id": "C1",
+      "claim_text": "A game is a structured form of play usually undertaken for enjoyment or education.",
+      "cited_url": null,
+      "analyst_evidence": "",
+      "analyst_extraction_status": "NO_URL",
+      "auditor_source_status": null,
+      "auditor_evidence": null,
+      "verdict": "NO_CITATION",
+      "auditor_explanation": "No citation or source URL was attached to this factual assertion.",
+      "source_snippet_extracted": null,
+      "correction_triggered": true,
+      "corrected_claim": "A game is a structured form of play usually undertaken for enjoyment or education.",
+      "final_verdict_after_correction": "NO_CITATION"
+    },
+    {
+      "claim_id": "C2",
+      "claim_text": "Definitions of games incorporate elements such as rules, goals, challenges, and player interaction.",
+      "cited_url": null,
+      "analyst_evidence": "",
+      "analyst_extraction_status": "NO_URL",
+      "auditor_source_status": null,
+      "auditor_evidence": null,
+      "verdict": "NO_CITATION",
+      "auditor_explanation": "No citation or source URL was attached to this factual assertion.",
+      "source_snippet_extracted": null,
+      "correction_triggered": true,
+      "corrected_claim": "Definitions of games incorporate elements such as rules, goals, challenges, and player interaction.",
+      "final_verdict_after_correction": "NO_CITATION"
+    }
+  ],
+  "audit_summary": {
+    "SUPPORTED": 0,
+    "CONTRADICTED": 0,
+    "UNSUPPORTED": 0,
+    "UNVERIFIABLE": 0,
+    "NO_CITATION": 2
+  },
+  "number_of_claims": 2,
+  "claims_with_evidence": 0,
+  "number_supported": 0,
+  "number_contradicted": 0,
+  "number_unsupported": 0,
+  "number_unverifiable": 0,
+  "number_without_citation": 2,
+  "correction_needed": true,
+  "correction_triggered": true,
+  "claims_corrected": 2,
+  "final_verified_claims": 0,
+  "analyst_amended_answer": "Unverified Information / Gaps:\n- The definition of a game as a structured form of play undertaken for enjoyment or education remains unverified due to a lack of cited sources.\n- Specific academic definitions and components such as rules, goals, challenges, and player interaction are currently unverified.",
+  "final_verified_answer": "Unverified Information / Gaps:\n- The definition of a game as a structured form of play undertaken for enjoyment or education remains unverified due to a lack of cited sources.\n- Specific academic definitions and components such as rules, goals, challenges, and player interaction are currently unverified."
+}

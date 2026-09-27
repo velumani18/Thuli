@@ -1,0 +1,159 @@
+{
+  "run_id": "6737f78e-3ab3-4515-8f37-961b1b2ea49e",
+  "session_id": "default_session",
+  "timestamp": "2026-09-27T10:11:02.936961",
+  "original_question": "what is gold rate in chennai today?",
+  "question": "what is gold rate in chennai today?",
+  "category": null,
+  "execution_time_seconds": 160.09,
+  "planning_time_seconds": 141.798,
+  "search_time_seconds": 18.279,
+  "fetch_time_seconds": 0.0,
+  "analyst_synthesis_time_seconds": 0.0,
+  "auditor_time_seconds": 0.0,
+  "correction_time_seconds": 0.0,
+  "number_of_urls_searched": 4,
+  "number_of_urls_fetched": 0,
+  "number_of_usable_sources": 0,
+  "failures_count": 0,
+  "model_name": "gemini-3.8-flash",
+  "prompt_tokens": 542,
+  "completion_tokens": 123,
+  "total_tokens": 665,
+  "cost_usd": 0.000078,
+  "cost_inr": 0.0067,
+  "entities_detected": [
+    "Chennai",
+    "Chennai Gold Market"
+  ],
+  "references_detected": [],
+  "references_resolved": {},
+  "memory_hits": [
+    "Chennai Gold Market"
+  ],
+  "memory_misses": [
+    "Chennai"
+  ],
+  "facts_retrieved_from_memory": [
+    {
+      "entity": "Chennai Gold Market",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Chennai Gold Market 18K Gold Rate (1g): ₹11,770",
+      "source_url": "https://www.goodreturns.in/gold-rates/chennai.html",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -1.1095
+    },
+    {
+      "entity": "Chennai Gold Market",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Chennai Gold Market 24K Gold Rate (1g): ₹15,273",
+      "source_url": "https://www.livechennai.com/gold_silverrate.asp",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -0.9764
+    },
+    {
+      "entity": "Chennai Gold Market",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Chennai Gold Market 22K Gold Rate (1g): ₹14,000",
+      "source_url": "https://www.livechennai.com/gold_silverrate.asp",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -0.9764
+    }
+  ],
+  "clarification_required": false,
+  "clarification_message": null,
+  "resolved_research_question": "what is gold rate in chennai today?",
+  "new_facts_written_to_memory": [],
+  "entities_queried_from_memory": [
+    "Chennai",
+    "Chennai Gold Market"
+  ],
+  "entities_saved_to_memory": [],
+  "memory_hit": true,
+  "number_of_candidates": 0,
+  "number_of_successful_pages": 0,
+  "number_of_blocked_pages": 0,
+  "number_of_failed_pages": 0,
+  "total_fetch_time_ms": 0.0,
+  "minimum_evidence_threshold_reached": false,
+  "total_retries_performed": 0,
+  "retry_telemetry": [],
+  "candidate_telemetry": [],
+  "research_plan": [
+    "The user wants to know the current gold rate in Chennai today. I need to search for live gold rates for 22K and 24K gold in Chennai to provide up-to-date and accurate information."
+  ],
+  "search_queries": [
+    "gold rate in chennai today goodreturns",
+    "chennai gold rate 22k 24k live",
+    "today gold price in chennai",
+    "what is gold rate in chennai today?"
+  ],
+  "tools_invoked": [
+    {
+      "tool_name": "search_none",
+      "target": "gold rate in chennai today goodreturns",
+      "status": "FAILED",
+      "status_code": null,
+      "duration_ms": 18280.99999995902,
+      "error_message": "All search providers exhausted.",
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_none",
+      "target": "chennai gold rate 22k 24k live",
+      "status": "FAILED",
+      "status_code": null,
+      "duration_ms": 18250.0,
+      "error_message": "All search providers exhausted.",
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_none",
+      "target": "today gold price in chennai",
+      "status": "FAILED",
+      "status_code": null,
+      "duration_ms": 18233.99999999674,
+      "error_message": "All search providers exhausted.",
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "search_none",
+      "target": "what is gold rate in chennai today?",
+      "status": "FAILED",
+      "status_code": null,
+      "duration_ms": 18217.99999999348,
+      "error_message": "All search providers exhausted.",
+      "fallback_applied": null
+    }
+  ],
+  "analyst_draft_answer": "### ⚠️ No Verifiable Primary Sources Found\n\nfacTrack operates under a strict **evidence-first verification policy**. For the research query:\n\n> **\"what is gold rate in chennai today?\"**\n\nNo live primary web sources or verifiable citations could be successfully retrieved at this time. To maintain complete factual integrity and avoid hallucination, facTrack does not synthesize unverified statements without live source citations.\n\n**Recommendation:** Please refine your search terms or verify that primary web sources are reachable.",
+  "analyst_citations": [],
+  "claim_evidence_map": [],
+  "unverified_information_gaps": [
+    "No primary live sources found with proper citations for: 'what is gold rate in chennai today?'"
+  ],
+  "audit_records": [],
+  "audit_summary": {
+    "SUPPORTED": 0,
+    "CONTRADICTED": 0,
+    "UNSUPPORTED": 0,
+    "UNVERIFIABLE": 0,
+    "NO_CITATION": 0
+  },
+  "number_of_claims": 0,
+  "claims_with_evidence": 0,
+  "number_supported": 0,
+  "number_contradicted": 0,
+  "number_unsupported": 0,
+  "number_unverifiable": 0,
+  "number_without_citation": 0,
+  "correction_needed": false,
+  "correction_triggered": false,
+  "claims_corrected": 0,
+  "final_verified_claims": 0,
+  "analyst_amended_answer": null,
+  "final_verified_answer": "### ⚠️ No Verifiable Primary Sources Found\n\nfacTrack operates under a strict **evidence-first verification policy**. For the research query:\n\n> **\"what is gold rate in chennai today?\"**\n\nNo live primary web sources or verifiable citations could be successfully retrieved at this time. To maintain complete factual integrity and avoid hallucination, facTrack does not synthesize unverified statements without live source citations.\n\n**Recommendation:** Please refine your search terms or verify that primary web sources are reachable."
+}

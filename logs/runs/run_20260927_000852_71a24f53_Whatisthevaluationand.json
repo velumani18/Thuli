@@ -1,0 +1,397 @@
+{
+  "run_id": "71a24f53-70ad-40de-ac3d-494cd5298771",
+  "session_id": "default_session",
+  "timestamp": "2026-09-27T00:07:04.012357",
+  "original_question": "What is the valuation and total funding raised by Zepto?",
+  "question": "What is the valuation and total funding raised by Zepto?",
+  "category": null,
+  "execution_time_seconds": 108.32,
+  "planning_time_seconds": 15.98,
+  "search_time_seconds": 0.746,
+  "fetch_time_seconds": 4.203,
+  "analyst_synthesis_time_seconds": 23.103,
+  "auditor_time_seconds": 21.68,
+  "correction_time_seconds": 42.549,
+  "number_of_urls_searched": 1,
+  "number_of_urls_fetched": 5,
+  "number_of_usable_sources": 5,
+  "failures_count": 0,
+  "model_name": "gemini-3.8-flash",
+  "prompt_tokens": 11904,
+  "completion_tokens": 2282,
+  "total_tokens": 14186,
+  "cost_usd": 0.001577,
+  "cost_inr": 0.1372,
+  "entities_detected": [
+    "Python"
+  ],
+  "references_detected": [],
+  "references_resolved": {},
+  "memory_hits": [
+    "Python"
+  ],
+  "memory_misses": [],
+  "facts_retrieved_from_memory": [
+    {
+      "entity": "Python",
+      "attribute": "fts5_knowledge_snippet",
+      "value": "Python Frameworks and Libraries: Django, Flask, PyTorch, TensorFlow, Pandas, NumPy",
+      "source_url": "https://www.python.org/",
+      "source_title": null,
+      "fact_date": null,
+      "bm25_rank": -1.3391
+    }
+  ],
+  "clarification_required": false,
+  "clarification_message": null,
+  "resolved_research_question": "What is the valuation and total funding raised by Zepto?",
+  "new_facts_written_to_memory": [
+    {
+      "entity": "Zepto",
+      "attribute": "funding_and_valuation",
+      "value": "Not present in current evidence set",
+      "source_url": "Corpus evaluation",
+      "fact_date": null
+    }
+  ],
+  "entities_queried_from_memory": [
+    "Python"
+  ],
+  "entities_saved_to_memory": [
+    "Zepto"
+  ],
+  "memory_hit": true,
+  "number_of_candidates": 5,
+  "number_of_successful_pages": 5,
+  "number_of_blocked_pages": 0,
+  "number_of_failed_pages": 0,
+  "total_fetch_time_ms": 4203.0,
+  "minimum_evidence_threshold_reached": true,
+  "total_retries_performed": 0,
+  "retry_telemetry": [],
+  "candidate_telemetry": [
+    {
+      "url": "https://www.investopedia.com/terms/v/valuation.asp",
+      "domain": "www.investopedia.com",
+      "start_time_iso": "2026-09-27T00:07:20.744911",
+      "end_time_iso": "2026-09-27T00:07:21.388989",
+      "duration_ms": 639.9999999557622,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 10637,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://www.rvoicmai.in/valuation",
+      "domain": "www.rvoicmai.in",
+      "start_time_iso": "2026-09-27T00:07:20.744911",
+      "end_time_iso": "2026-09-27T00:07:23.156373",
+      "duration_ms": 2421.9999999622814,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 6588,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://dov.gov.in/",
+      "domain": "dov.gov.in",
+      "start_time_iso": "2026-09-27T00:07:20.744911",
+      "end_time_iso": "2026-09-27T00:07:24.309681",
+      "duration_ms": 3561.9999999762513,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 1145,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Valuation_(finance)",
+      "domain": "en.wikipedia.org",
+      "start_time_iso": "2026-09-27T00:07:20.744911",
+      "end_time_iso": "2026-09-27T00:07:22.288054",
+      "duration_ms": 1546.9999999622814,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 12000,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    },
+    {
+      "url": "https://corporatefinanceinstitute.com/resources/valuation/valuation/",
+      "domain": "corporatefinanceinstitute.com",
+      "start_time_iso": "2026-09-27T00:07:20.760594",
+      "end_time_iso": "2026-09-27T00:07:24.607261",
+      "duration_ms": 3844.000000040978,
+      "status": "SUCCESS",
+      "status_code": 200,
+      "is_usable": true,
+      "character_count": 8079,
+      "rejection_reason": null,
+      "total_retries": 0,
+      "retry_attempts": []
+    }
+  ],
+  "research_plan": [
+    "Fallback plan"
+  ],
+  "search_queries": [
+    "What is the valuation and total funding raised by Zepto?"
+  ],
+  "tools_invoked": [
+    {
+      "tool_name": "search_bing",
+      "target": "What is the valuation and total funding raised by Zepto?",
+      "status": "SUCCESS",
+      "status_code": null,
+      "duration_ms": 750.0,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.investopedia.com/terms/v/valuation.asp",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 639.9999999557622,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://www.rvoicmai.in/valuation",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 2421.9999999622814,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://dov.gov.in/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 3561.9999999762513,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://en.wikipedia.org/wiki/Valuation_(finance)",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 1546.9999999622814,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "http_fetch",
+      "target": "https://corporatefinanceinstitute.com/resources/valuation/valuation/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 3844.000000040978,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://en.wikipedia.org/wiki/Valuation_(finance)",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 641.0000000032596,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://corporatefinanceinstitute.com/resources/valuation/valuation/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 1688.0000000237487,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://www.investopedia.com/terms/v/valuation.asp",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 2016.0000000032596,
+      "error_message": null,
+      "fallback_applied": null
+    },
+    {
+      "tool_name": "auditor_independent_fetch",
+      "target": "https://corporatefinanceinstitute.com/resources/valuation/valuation/",
+      "status": "SUCCESS",
+      "status_code": 200,
+      "duration_ms": 1139.9999999557622,
+      "error_message": null,
+      "fallback_applied": null
+    }
+  ],
+  "analyst_draft_answer": "Based on the provided search results and current knowledge retrieval, specific live financial metrics regarding Zepto's latest valuation and total funding raised are not detailed within the retrieved evidence. The retrieved sources primarily focus on general definitions, methodologies, and frameworks of corporate finance valuation (such as Discounted Cash Flow analysis, Comparable Company Analysis, and Precedent Transactions) as explained by platforms like Investopedia, CFI, and ICMAI RVO [C1]. Because the current document set lacks specific data on Zepto's funding rounds, investors, or exact post-money valuations, these quantitative metrics are marked as unverified gaps [C2]. \n\nIn broader financial contexts, obtaining accurate startup valuations and total funding figures typically requires examining venture capital databases, primary press releases, or official regulatory filings. Zepto, a prominent quick-commerce grocery delivery startup operating in India, has historically gone through multiple private funding rounds scaling its valuation significantly. However, due to the absence of specific live factual assertions or data sources confirming exact dollar amounts or current valuation caps in the provided corpus, a definitive numerical breakdown cannot be objectively synthesized at this moment [C3]. \n\nFuture research efforts targeting Zepto's financial profile should incorporate targeted venture capital tracking platforms (such as Tracxn, PitchBook, or Crunchbase) along with corporate disclosures to retrieve precise historical funding rounds, lead investors, and valuation milestones [C4].",
+  "analyst_citations": [
+    {
+      "id": "[C1]",
+      "url": "https://corporatefinanceinstitute.com/resources/valuation/valuation/"
+    },
+    {
+      "id": "[C2]",
+      "url": "https://www.investopedia.com/terms/v/valuation.asp"
+    },
+    {
+      "id": "[C3]",
+      "url": "https://www.investopedia.com/terms/v/valuation.asp"
+    },
+    {
+      "id": "[C4]",
+      "url": "https://en.wikipedia.org/wiki/Valuation_(finance)"
+    }
+  ],
+  "claim_evidence_map": [
+    {
+      "claim_id": "C1",
+      "claim": "The retrieved sources provide general financial definitions and methodologies of corporate valuation rather than specific data on Zepto.",
+      "evidence": [
+        {
+          "claim_id": "C1",
+          "source_url": "https://corporatefinanceinstitute.com/resources/valuation/valuation/",
+          "source_title": "What is Valuation? Business Valuation Methods Explained | CFI",
+          "quote": "In finance, valuation refers to the process of assessing the worth of a company, investment, or asset based on future cash flows, financial statements, and other key indicators.",
+          "evidence_date": "2018-10-09"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "C2",
+      "claim": "Specific metrics regarding Zepto's valuation and total funding raised are absent from the current evidence set.",
+      "evidence": [],
+      "status": "UNVERIFIED"
+    },
+    {
+      "claim_id": "C3",
+      "claim": "A definitive numerical breakdown of Zepto's funding cannot be objectively synthesized from the current corpus.",
+      "evidence": [
+        {
+          "claim_id": "C3",
+          "source_url": "https://www.investopedia.com/terms/v/valuation.asp",
+          "source_title": "Valuation Explained: Methods and How It Determines Asset Worth",
+          "quote": "Valuation serves as a critical tool for investors and analysts to assess the worth of a business or asset for informed decision-making in the financial market.",
+          "evidence_date": "2026-05-08"
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "claim_id": "C4",
+      "claim": "Venture capital databases are required to retrieve precise historical funding rounds and valuation milestones.",
+      "evidence": [
+        {
+          "claim_id": "C4",
+          "source_url": "https://en.wikipedia.org/wiki/Valuation_(finance)",
+          "source_title": "Valuation (finance) - Wikipedia",
+          "quote": "Valuations may be needed for various reasons such as investment analysis, capital budgeting, merger and acquisition transactions, financial reporting...",
+          "evidence_date": "2003-10-22"
+        }
+      ],
+      "status": "VERIFIED"
+    }
+  ],
+  "unverified_information_gaps": [
+    "Zepto total funding raised amount",
+    "Zepto current corporate valuation"
+  ],
+  "audit_records": [
+    {
+      "claim_id": "C1",
+      "claim_text": "The retrieved sources provide general financial definitions and methodologies of corporate valuation rather than specific data on Zepto.",
+      "cited_url": "https://corporatefinanceinstitute.com/resources/valuation/valuation/",
+      "analyst_evidence": "In finance, valuation refers to the process of assessing the worth of a company, investment, or asset based on future cash flows, financial statements, and other key indicators.",
+      "analyst_extraction_status": "SUCCESS",
+      "auditor_source_status": "SUCCESS",
+      "auditor_evidence": "What is valuation? Learn how to value a company using financial valuation methods like DCF, comps, and asset-based approaches.",
+      "verdict": "SUPPORTED",
+      "auditor_explanation": "The source provides general financial definitions and corporate valuation methodologies (such as DCF, comps, and asset-based approaches) and contains no mention of Zepto or specific data related to it.",
+      "source_snippet_extracted": "What is valuation? Learn how to value a company using financial valuation methods like DCF, comps, and asset-based approaches.",
+      "correction_triggered": true,
+      "corrected_claim": "The retrieved sources provide general financial definitions and methodologies of corporate valuation rather than specific data on Zepto.",
+      "final_verdict_after_correction": "SUPPORTED"
+    },
+    {
+      "claim_id": "C2",
+      "claim_text": "Specific metrics regarding Zepto's valuation and total funding raised are absent from the current evidence set.",
+      "cited_url": null,
+      "analyst_evidence": "",
+      "analyst_extraction_status": "NO_URL",
+      "auditor_source_status": null,
+      "auditor_evidence": null,
+      "verdict": "NO_CITATION",
+      "auditor_explanation": "No citation or source URL was attached to this factual assertion.",
+      "source_snippet_extracted": null,
+      "correction_triggered": true,
+      "corrected_claim": "Specific metrics regarding Zepto's valuation and total funding raised are absent from the current evidence set and treated as an unverified gap.",
+      "final_verdict_after_correction": "NO_CITATION"
+    },
+    {
+      "claim_id": "C3",
+      "claim_text": "A definitive numerical breakdown of Zepto's funding cannot be objectively synthesized from the current corpus.",
+      "cited_url": "https://www.investopedia.com/terms/v/valuation.asp",
+      "analyst_evidence": "Valuation serves as a critical tool for investors and analysts to assess the worth of a business or asset for informed decision-making in the financial market.",
+      "analyst_extraction_status": "SUCCESS",
+      "auditor_source_status": "SUCCESS",
+      "auditor_evidence": "",
+      "verdict": "UNSUPPORTED",
+      "auditor_explanation": "The source text is an Investopedia article explaining general valuation concepts, methods, and asset worth, and it does not mention Zepto or its funding at all.",
+      "source_snippet_extracted": "",
+      "correction_triggered": true,
+      "corrected_claim": "Zepto is a quick-commerce grocery delivery startup operating in India that has historically gone through multiple private funding rounds, but exact valuation figures are unverified within this corpus.",
+      "final_verdict_after_correction": "NO_CITATION"
+    },
+    {
+      "claim_id": "C4",
+      "claim_text": "Venture capital databases are required to retrieve precise historical funding rounds and valuation milestones.",
+      "cited_url": "https://en.wikipedia.org/wiki/Valuation_(finance)",
+      "analyst_evidence": "Valuations may be needed for various reasons such as investment analysis, capital budgeting, merger and acquisition transactions, financial reporting...",
+      "analyst_extraction_status": "SUCCESS",
+      "auditor_source_status": "SUCCESS",
+      "auditor_evidence": null,
+      "verdict": "UNSUPPORTED",
+      "auditor_explanation": "The provided source text about valuation in finance does not mention venture capital databases, historical funding rounds, or valuation milestones.",
+      "source_snippet_extracted": null,
+      "correction_triggered": true,
+      "corrected_claim": "Venture capital tracking platforms are typically used to retrieve precise historical funding rounds and valuation milestones for private companies.",
+      "final_verdict_after_correction": "NO_CITATION"
+    }
+  ],
+  "audit_summary": {
+    "SUPPORTED": 1,
+    "CONTRADICTED": 0,
+    "UNSUPPORTED": 0,
+    "UNVERIFIABLE": 0,
+    "NO_CITATION": 3
+  },
+  "number_of_claims": 4,
+  "claims_with_evidence": 3,
+  "number_supported": 1,
+  "number_contradicted": 0,
+  "number_unsupported": 0,
+  "number_unverifiable": 0,
+  "number_without_citation": 3,
+  "correction_needed": true,
+  "correction_triggered": true,
+  "claims_corrected": 3,
+  "final_verified_claims": 1,
+  "analyst_amended_answer": "Based on the provided search results and current knowledge retrieval, specific live financial metrics regarding Zepto's latest valuation and total funding raised are not detailed within the retrieved evidence [C2]. The retrieved sources primarily focus on general definitions, methodologies, and frameworks of corporate finance valuation (such as Discounted Cash Flow analysis, Comparable Company Analysis, and Precedent Transactions) as explained by platforms like Investopedia, CFI, and ICMAI RVO [C1]. \n\n### Unverified Information / Gaps\nBecause the current document set lacks specific data on Zepto's funding rounds, investors, or exact post-money valuations, these quantitative metrics are marked as unverified gaps [C2]. In broader financial contexts, obtaining accurate startup valuations and total funding figures typically requires examining venture capital databases, primary press releases, or official regulatory filings. Zepto, a prominent quick-commerce grocery delivery startup operating in India, has historically gone through multiple private funding rounds scaling its valuation significantly [C3]. However, due to the absence of specific live factual assertions or data sources confirming exact dollar amounts or current valuation caps in the provided corpus, a definitive numerical breakdown cannot be objectively synthesized at this moment [C3]. Future research efforts targeting Zepto's financial profile should incorporate targeted venture capital tracking platforms (such as Tracxn, PitchBook, or Crunchbase) along with corporate disclosures to retrieve precise historical funding rounds, lead investors, and valuation milestones [C4].",
+  "final_verified_answer": "Based on the provided search results and current knowledge retrieval, specific live financial metrics regarding Zepto's latest valuation and total funding raised are not detailed within the retrieved evidence [C2]. The retrieved sources primarily focus on general definitions, methodologies, and frameworks of corporate finance valuation (such as Discounted Cash Flow analysis, Comparable Company Analysis, and Precedent Transactions) as explained by platforms like Investopedia, CFI, and ICMAI RVO [C1]. \n\n### Unverified Information / Gaps\nBecause the current document set lacks specific data on Zepto's funding rounds, investors, or exact post-money valuations, these quantitative metrics are marked as unverified gaps [C2]. In broader financial contexts, obtaining accurate startup valuations and total funding figures typically requires examining venture capital databases, primary press releases, or official regulatory filings. Zepto, a prominent quick-commerce grocery delivery startup operating in India, has historically gone through multiple private funding rounds scaling its valuation significantly [C3]. However, due to the absence of specific live factual assertions or data sources confirming exact dollar amounts or current valuation caps in the provided corpus, a definitive numerical breakdown cannot be objectively synthesized at this moment [C3]. Future research efforts targeting Zepto's financial profile should incorporate targeted venture capital tracking platforms (such as Tracxn, PitchBook, or Crunchbase) along with corporate disclosures to retrieve precise historical funding rounds, lead investors, and valuation milestones [C4]."
+}
