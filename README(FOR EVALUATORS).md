@@ -11,13 +11,15 @@ Welcome! This note provides a concise, high-impact guide for evaluators to study
 
 ## 💬 A Transparent Note on Prompt Sizing & AI-Refined Prompts
 
-When evaluating my prompting skills in the session logs, it may appear that several of my prompts are oversized, highly structured, or artificial. I want to be completely open and upfront with you:
+When evaluating how I built facTrack, it may appear that a few of my prompts are oversized, highly structured, or artificial.
 
 > **Yes, I agree that a few of my prompts were refined and extended with AI assistance.**
 
-I did this intentionally. Throughout my journey building complex systems with AI pair-programming, I discovered that **ideas must be clearly, deeply, and comprehensively explained to the AI to build something truly valuable**:
+If the session logs are read completely, you can clearly see how I work alongside AI to build complex, production-grade systems. I firmly believe that AI models cannot understand real-world engineering environments or constraints on their own. Therefore, these kinds of deeply explained, structured prompts are absolutely necessary to direct the AI efficiently.
 
-1. **Short, Casual Prompts Produce Fragile Prototypes:** Vague prompts lead LLMs to choose the easiest, most generic shortcuts—such as adding unnecessary vector databases, blind retries, and superficial 1-sentence answers.
+Throughout my journey building complex systems with AI pair-programming, I discovered that **ideas must be clearly, deeply, and comprehensively explained to the AI to build something truly valuable**:
+
+1. **Short, Casual Prompts Produce Fragile Prototypes:** Vague prompts lead LLMs to choose the easiest, most generic shortcuts—such as adding unnecessary technologies, and superficial 1-sentence answers.
 2. **Explicit Engineering Directives Prevent Hallucinations:** To build a robust research agent operating under strict constraints (such as the 120-second hard ceiling, zero-trust auditor independence, and deterministic SQLite relational memory), I had to articulate the exact schemas, state machines, and edge cases.
 3. **Prompting as an Intentional Design Tool:** Refining and structuring my prompts was an active engineering strategy. It allowed me to command the AI with precision, eliminate ambiguity, catch flawed assumptions before code was written, and maintain high standards across all 51 automated tests.
 
